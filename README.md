@@ -16,7 +16,7 @@ $ curl https://raw.githubusercontent.com/refr4g/dotfiles/main/fish/fish_variable
 
 ```shell
 $ brew install tmux
-$ git clone https://github.com/nhdaly/tmux-better-mouse-mode ~/.config/tmux/
+$ cd ~/.config/tmux; git clone https://github.com/nhdaly/tmux-better-mouse-mode
 $ mkdir ~/.config/tmux/ && curl https://raw.githubusercontent.com/refr4g/dotfiles/main/tmux/tmux.conf > ~/.config/tmux/tmux.conf
 # Now set proper fish version inside tmux.conf file
 $ tmux source-file ~/.config/tmux/tmux.conf
