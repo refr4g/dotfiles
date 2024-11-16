@@ -25,6 +25,6 @@ $ tmux source-file ~/.config/tmux/tmux.conf
 # Terminal Emulator
 
 ```shell
-$ mkdir ~/.config/terminalapp/ && curl https://raw.githubusercontent.com/refr4g/dotfiles/terminal/config.plist > ~/.config/terminalapp/config.plist
+$ mkdir ~/.config/terminalapp/ && curl https://raw.githubusercontent.com/refr4g/dotfiles/main/terminal/config.plist > ~/.config/terminalapp/config.plist
 $ defaults import com.apple.Terminal ~/.config/terminalapp/config.plist
 ```
