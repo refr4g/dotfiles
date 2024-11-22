@@ -11,11 +11,7 @@ $ chsh -s /usr/bin/fish
 $ chsh -s /opt/homebrew/Cellar/fish/*/bin/fish
 $ omf install godfather
 $ curl https://raw.githubusercontent.com/refr4g/dotfiles/main/fish/fish_prompt.fish > ~/.config/fish/functions/fish_prompt.fish
-<<<<<<< HEAD
-$ curl https://raw.githubusercontent.com/refr4g/dotfiles/main/fish/fish_variables.fish > ~/.config/fish/
-=======
 $ curl https://raw.githubusercontent.com/refr4g/dotfiles/main/fish/fish_variables.fish > ~/.config/fish/fish_variables.fish
->>>>>>> a6e6761 (Updates...)
 ```
 
 # Tmux
@@ -23,11 +19,7 @@ $ curl https://raw.githubusercontent.com/refr4g/dotfiles/main/fish/fish_variable
 ```bash
 $ sudo apt install tmux
 $ brew install tmux
-<<<<<<< HEAD
 $ cd ~/.config/tmux; git clone https://github.com/nhdaly/tmux-better-mouse-mode
-=======
-$ git clone https://github.com/nhdaly/tmux-better-mouse-mode ~/.config/tmux/
->>>>>>> a6e6761 (Updates...)
 $ mkdir ~/.config/tmux/ && curl https://raw.githubusercontent.com/refr4g/dotfiles/main/tmux/tmux.conf > ~/.config/tmux/tmux.conf
 # Now set proper fish version inside tmux.conf file
 $ tmux source-file ~/.config/tmux/tmux.conf
@@ -48,11 +40,7 @@ $ ./install.sh --all
 
 # Terminal Emulator
 
-<<<<<<< HEAD
-```shell
-=======
 ```bash
->>>>>>> a6e6761 (Updates...)
 $ mkdir ~/.config/terminalapp/ && curl https://raw.githubusercontent.com/refr4g/dotfiles/main/terminal/config.plist > ~/.config/terminalapp/config.plist
 $ defaults import com.apple.Terminal ~/.config/terminalapp/config.plist
 ```
